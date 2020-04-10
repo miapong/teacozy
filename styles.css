@@ -1,0 +1,128 @@
+body {
+background-color:black;
+opacity:0.9;
+color:seashell;
+font-family:helvetica;
+font-size: 22px;
+width:100%;
+margin:auto;
+}
+
+.navbar{
+    height:69px;
+    width: 100%;
+    position:fixed;
+    z-index: 10;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(2, 2, 2);
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+.logo img{
+    height:50px;
+    
+    margin-left: 10px;
+
+}
+
+.nav a{
+    color:seashell;
+    text-decoration:underline;
+}
+
+.container{
+    position:relative;
+    top:100px;
+}
+
+.header{
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    width:85%;
+    height:700px;
+    background-repeat: no-repeat;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.headertext{
+    background-color:black;
+    text-align: center;
+    width:100%;
+}
+
+.featured-tea{
+    width:80%;  
+    margin:auto;
+}
+
+.tea-container{
+    text-align:center;
+}
+
+.tea-box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.tea img{
+    height:200px;
+    width:300px;
+}
+
+.tea p{
+    text-align: center;
+}
+
+.location-container{
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    width: 85%;
+    height:500px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.location-container h2{
+    text-align:center;
+
+}
+
+.location-box{
+    display:inline-flex;
+    justify-content: center;
+}
+
+.location{
+    margin-right:3.3%;
+    margin-top:15px;
+    width:25%;
+    background-color: rgba(0, 0, 0, 1);
+    text-align: center;
+    
+}
+
+
+
+.contact{
+    text-align: center;
+    height:200px;
+}
+
+footer{
+    text-align:left;
+    margin-left:20px;
+
+}
+
+
+
